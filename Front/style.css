@@ -1,0 +1,69 @@
+body{
+    background: url("https://img.freepik.com/free-vector/realistic-american-footbal-field_23-2148806943.jpg");
+    background-size: cover;
+}
+td{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+thead{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+.GlavniKontejner{
+    display: flex;
+    flex-direction: column;
+}
+
+.divSelekt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*
+.prikazTimova, .prikazIgraca, .prikazUtakmice{
+     max-width: max-content;
+    display: inline;
+    flex-wrap: wrap; 
+}*/
+.tabelaDiv{
+    margin-top: 1%;
+    overflow-x: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.FormaTim, .FormaIgrac, .FormaUtakmica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+/*
+.prikazTabela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;   
+}
+*/
+.table{
+    margin-right:15px;
+    margin-left:15px;
+    color: white;
+}
+select{
+    height: 30px;
+}
+
+.NoviTim, .dodajTim, .NoviIgrac, .dodajIgraca, .inPozicija, .inDomacin, .inGost,
+.NoviUtakmica, .dodajUtakmicu,.inNaziv, .inPred, .inTr, .inJMBG, .inIme, .inPrezime, .inGodina, .inInfo {
+    margin-top: 1%;
+}
+
